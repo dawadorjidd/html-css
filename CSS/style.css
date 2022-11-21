@@ -1,0 +1,35 @@
+.h2 {
+  color: orange;
+}
+.p2 {
+  color: yellow;
+}
+
+/* CSS Colors, Fonts and Sizes */
+.heading1 {
+  color: green;
+  font-family: verdana;
+  font-size: 300%;
+}
+.para1 {
+  color: greenyellow;
+  font-family: courier;
+  font-size: 160%;
+}
+
+/* CSS Border */
+#p {
+  border: 2px solid powderblue;
+}
+
+/* CSS Padding */
+.pp {
+  border: 2px solid blue;
+  padding: 30px;
+}
+
+/* CSS Margin */
+.pm {
+  border: 2px solid red;
+  margin: 50px;
+}

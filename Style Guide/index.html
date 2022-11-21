@@ -1,0 +1,114 @@
+<!-- HTML Style Guide -->
+<!-- A consistent, clean, and tidy HTML code makes it easier for others to read and understand your code -->
+
+<!-- Always Declare Document Type -->
+<!-- Always declare the document type as the first line in your document -->
+<!DOCTYPE html>
+
+<!-- Use Lowercase Element Names -->
+<!-- Mixing uppercase and lowercase names looks bad -->
+<!-- Developers normally use lowercase names -->
+<!-- Lowercase looks cleaner -->
+<!-- Lowercase is easier to write  -->
+<body>
+  <p>This is a paragraph.</p>
+</body>
+
+<!-- Close All HTML Elements -->
+<!-- In HTML, you do not have to close all elements (for example the <p> element) -->
+<!-- However, we strongly recommend closing all HTML elements, like this -->
+<section>
+  <p>This is a paragraph.</p>
+  <p>This is a paragraph.</p>
+</section>
+
+<!-- Use Lowercase Attribute Names -->
+<!-- Mixing uppercase and lowercase names looks bad -->
+<!-- Developers normally use lowercase names -->
+<!-- Lowercase looks cleaner -->
+<!-- Lowercase is easier to write -->
+<a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+
+<!-- Always Quote Attribute Values -->
+<!-- Developers normally quote attribute values -->
+<!-- Quoted values are easier to read -->
+<!-- You MUST use quotes if the value contains spaces -->
+<table class="striped"></table>
+
+<!-- Always Specify alt, width, and height for Images -->
+<!-- Always specify the alt attribute for images. This attribute is important if the image for some reason cannot be displayed. -->
+<!-- Also, always define the width and height of images. This reduces flickering, because the browser can reserve space for the image before loading. -->
+<img src="html5.gif" alt="HTML5" style="width: 128px; height: 128px" />
+
+<!-- Spaces and Equal Signs -->
+<!-- HTML allows spaces around equal signs. But space-less is easier to read and groups entities better together -->
+<link rel="stylesheet" href="styles.css" />
+
+<!-- Avoid Long Code Lines -->
+<!-- When using an HTML editor, it is NOT convenient to scroll right and left to read the HTML code -->
+<!-- Try to avoid too long code lines -->
+
+<!-- Blank Lines and Indentation -->
+<!-- Do not add blank lines, spaces, or indentations without a reason -->
+<!-- For readability, add blank lines to separate large or logical code blocks -->
+<!-- For readability, add two spaces of indentation. Do not use the tab key -->
+<h1>Famous Cities</h1>
+
+<h2>Tokyo</h2>
+<p>
+  Tokyo is the capital of Japan, the center of the Greater Tokyo Area, and the
+  most populous metropolitan area in the world.
+</p>
+
+<h2>London</h2>
+<p>
+  London is the capital city of England. It is the most populous city in the
+  United Kingdom.
+</p>
+
+<h2>Paris</h2>
+<p>
+  Paris is the capital of France. The Paris area is one of the largest
+  population centers in Europe.
+</p>
+
+<!-- Never Skip the <title> Element -->
+<!-- defines a title in the browser toolbar -->
+<!-- provides a title for the page when it is added to favorites -->
+<!-- displays a title for the page in search-engine results -->
+<title>HTML Style Guide and Coding Conventions</title>
+
+<!-- Omitting <html> and <body>? -->
+<!-- An HTML page will validate without the <html> and <body> tags -->
+<!-- Omitting <body> can produce errors in older browsers -->
+<!-- Omitting <html> and <body> can also crash DOM and XML software -->
+
+<!-- Omitting <head>? -->
+<!-- The HTML <head> tag can also be omitted -->
+<!-- Browsers will add all elements before <body>, to a default <head> element -->
+<meta charset="utf-8" />
+
+<!-- Add the lang Attribute -->
+<!-- You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers -->
+<html lang="en-us"></html>
+
+<!-- Meta Data -->
+<!-- To ensure proper interpretation and correct search engine indexing, both the language and the character encoding <meta charset="charset"> should be defined as early as possible in an HTML document -->
+<meta charset="UTF-8">
+
+<!-- Loading JavaScript in HTML -->
+<!-- Use simple syntax for loading external scripts (the type attribute is not necessary): -->
+<script src="myscript.js">
+
+// Accessing HTML Elements with JavaScript
+// Using "untidy" HTML code can result in JavaScript errors
+// These two JavaScript statements will produce different results
+getElementById("Demo").innerHTML = "Hello";
+getElementById("demo").innerHTML = "Hello";
+
+// File Extensions
+// HTML files should have a .html extension (.htm is allowed).
+// CSS files should have a .css extension.
+// JavaScript files should have a .js extension.
+
+

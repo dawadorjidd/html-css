@@ -1,0 +1,77 @@
+<!-- HTML Tables -->
+<!-- A table in HTML consists of table cells inside rows and columns -->
+<style>
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+</style>
+
+<table style="width: 100%">
+  <tr>
+    <th>Fruits</th>
+    <th>Price</th>
+  </tr>
+
+  <tr>
+    <td>Apple</td>
+    <td>NU; 200</td>
+  </tr>
+
+  <tr>
+    <td>Mango</td>
+    <td>500</td>
+  </tr>
+
+  <tr>
+    <td>Orange</td>
+    <td>300</td>
+  </tr>
+</table>
+
+<!-- Table Cells -->
+<!-- Each table cell is defined by a <td> and a </td> tag. -->
+<!-- Everything between <td> and </td> are the content of the table cell. -->
+
+<!-- Table Rows -->
+<!-- Each table row starts with a <tr> and ends with a </tr> tag -->
+<!-- tr stands for table row -->
+
+<!-- Table Headers -->
+<!-- Sometimes you want your cells to be table header cells. In those cases use the <th> tag instead of the <td> tag -->
+<!-- th stands for table header -->
+
+<!-- HTML Table - Colspan -->
+<!-- To make a cell span over multiple columns, use the colspan attribute -->
+<!-- The value of the colspan attribute represents the number of columns to span -->
+
+<!-- HTML Table - Rowspan -->
+<!-- To make a cell span over multiple rows, use the rowspan attribute -->
+<!-- The value of the rowspan attribute represents the number of rows to span -->
+
+<table style="width: 100%">
+  <tr>
+    <th rowspan="2">Name</th>
+    <th colspan="2">Gender</th>
+    <th rowspan="2">Age</th>
+  </tr>
+
+  <tr>
+    <th>Male</th>
+    <th>Female</th>
+  </tr>
+
+  <tr>
+    <td>Dawa</td>
+    <td>yes</td>
+    <td>No</td>
+    <td>25</td>
+  </tr>
+</table>
